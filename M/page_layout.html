@@ -2,11 +2,59 @@
 <head>
 <style>
 /* Write your code here */
+    .container {
+      display: flex;
+    }
+    .left_part h1{
+      color: white;
+      text-align: center;
+      font-size: 52px;
+      font-family:  Arial, Helvetica;
+    }
+
+    .left_part p {
+      color: white;
+      text-align: center;
+      font-size: 32px;  
+    }
+    .left_part{
+      display: flex;
+      flex-direction: column;
+      border: 1.5px solid #eb4034;
+      width: 500px;
+      height: 600px;
+      background-color: #b52926;
+      align-items: center;
+      justify-content: center;   
+    }
+
+    .right_part {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .right_part h3 {
+      font-style: bold;
+      font-size: 26px;
+      font-family: Arial, Halvetica;
+      text-align: right;
+    }
+
+    .right_part ul {
+      text-align: left;
+      font-size: 20px;
+    }
+
+   
+
+    }
 </style>
 </head>
-<body>
+<body class = "container">
 <aside class="left_part">
   <h1>Web Technologies</h1>
+  <p>Foundations of Web</br>2020 Fall</p>
+  
 </aside>
 <section class="right_part">
   <h3>Syllabus</h3>
